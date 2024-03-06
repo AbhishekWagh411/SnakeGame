@@ -22,7 +22,6 @@ void game_setup() {
     targetY = rand() % breadth;
     if (x == targetX && y == targetY) {
         targetX = rand() % width;
-        targetY = rand() % breadth;
     }
     score = 0;
 
